@@ -1,0 +1,92 @@
+
+.home {
+    background-color: #1C123A;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.col-hello {
+    display: flex;
+    
+}
+.background-bubble {
+    position: relative;
+    width: 1000px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+.background-bubble::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #602B69;
+    filter: blur(75px);
+}
+
+.hello {
+    color: white;
+    position: relative;
+    color: #FFF;
+font-family: Fira Code;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 100px;
+    margin-left: 120px;
+    text-align: left;
+    
+}
+
+.hello-sub {
+    color: white;
+    position: relative;
+    color: #FFF;
+font-family: Fira Code;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 50px;
+    margin-left: 120px;
+    text-align: left;
+   
+}
+
+.col-hello {
+    width: 50%;
+    margin-left: 0;
+
+}
+
+.homepic {
+  
+  
+    position: relative;
+   width: 251px;
+   height: 265px;
+  
+}
+
+.pic {
+    width: 251px;
+   height: 265px;
+   margin-left: 120px;
+   margin-top: 80px;
+}
+
+.col-pic {
+   
+   margin-right: 800px;
+}

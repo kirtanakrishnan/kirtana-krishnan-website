@@ -1,0 +1,87 @@
+.about {
+    background-color: #1C123A;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.svg-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 600px;
+    fill: #602B69;
+    filter: blur(75px);
+  }
+  .about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+  }
+
+
+.about-title {
+    color: white;
+    position: relative;
+   
+font-family: Fira Code;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 100px;
+   
+}
+
+.about-title p {
+    color: white;
+    position: relative;
+   
+font-family: Fira Code;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 70px;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    padding-bottom: 10px;
+   
+}
+
+.experience-title {
+    color: white;
+    position: relative;
+   
+font-family: Fira Code;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 60px;
+    text-align: left;
+    
+   
+}
+
+.experience-title h3 {
+    color: white;
+    position: relative;
+   
+font-family: Fira Code;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   margin-top: 35px;
+    text-align: left;
+    
+    
+   
+}
